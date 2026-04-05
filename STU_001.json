@@ -1,0 +1,389 @@
+{
+  "analyze": {
+    "student_id": "STU_001",
+    "name": "Arjun Sharma",
+    "stream": "JEE",
+    "total_attempts": 6,
+    "avg_score_pct": 33.53,
+    "recent_avg_score_pct": 34.61,
+    "score_trend": "improving",
+    "completion_rate_pct": 66.7,
+    "avg_attempt_rate_pct": 77.2,
+    "avg_time_per_question_seconds": 187.7,
+    "speed_status": "slow",
+    "integer_question_avoidance": true,
+    "subject_breakdown": {
+      "Physics": {
+        "attempts": 5,
+        "avg_score_pct": 32.07
+      },
+      "Chemistry": {
+        "attempts": 1,
+        "avg_score_pct": 40.83
+      }
+    },
+    "chapter_breakdown": {
+      "Thermodynamics": {
+        "attempts": 3,
+        "avg_score_pct": 23.78,
+        "completed": 1,
+        "aborted": 2,
+        "status": "weak"
+      },
+      "Electrostatics": {
+        "attempts": 2,
+        "avg_score_pct": 44.0,
+        "completed": 2,
+        "aborted": 0,
+        "status": "needs_work"
+      },
+      "Kinematics": {
+        "attempts": 3,
+        "avg_score_pct": 24.11,
+        "completed": 1,
+        "aborted": 2,
+        "status": "weak"
+      },
+      "Optics": {
+        "attempts": 1,
+        "avg_score_pct": 40.0,
+        "completed": 1,
+        "aborted": 0,
+        "status": "needs_work"
+      },
+      "Organic Chemistry": {
+        "attempts": 1,
+        "avg_score_pct": 40.83,
+        "completed": 1,
+        "aborted": 0,
+        "status": "needs_work"
+      },
+      "Chemical Bonding": {
+        "attempts": 1,
+        "avg_score_pct": 40.83,
+        "completed": 1,
+        "aborted": 0,
+        "status": "needs_work"
+      },
+      "Laws of Motion": {
+        "attempts": 1,
+        "avg_score_pct": 49.0,
+        "completed": 1,
+        "aborted": 0,
+        "status": "needs_work"
+      }
+    },
+    "strengths": [],
+    "weaknesses": [
+      "Kinematics",
+      "Thermodynamics"
+    ],
+    "patterns": [
+      "Frequent test abortions \u2014 may indicate confidence issues or time management problems.",
+      "Consistently skipping integer-type questions \u2014 needs targeted integer practice.",
+      "Average time per question is high \u2014 speed improvement required."
+    ],
+    "attempts_detail": [
+      {
+        "attempt_id": "ATT_001_01",
+        "date": "2026-02-10",
+        "subject": "Physics",
+        "chapters": [
+          "Thermodynamics",
+          "Electrostatics"
+        ],
+        "score_pct": 39.0,
+        "raw_score": 39.0,
+        "max_score": 100.0,
+        "completed": true,
+        "attempted": 23,
+        "total": 25,
+        "avg_time_sec": 192
+      },
+      {
+        "attempt_id": "ATT_001_02",
+        "date": "2026-02-18",
+        "subject": "Physics",
+        "chapters": [
+          "Kinematics",
+          "Optics"
+        ],
+        "score_pct": 40.0,
+        "raw_score": 40.0,
+        "max_score": 100.0,
+        "completed": true,
+        "attempted": 22,
+        "total": 25,
+        "avg_time_sec": 190
+      },
+      {
+        "attempt_id": "ATT_001_03",
+        "date": "2026-02-25",
+        "subject": "Physics",
+        "chapters": [
+          "Thermodynamics",
+          "Kinematics"
+        ],
+        "score_pct": 18.33,
+        "raw_score": 22.0,
+        "max_score": 120.0,
+        "completed": false,
+        "attempted": 14,
+        "total": 30,
+        "avg_time_sec": 187
+      },
+      {
+        "attempt_id": "ATT_001_04",
+        "date": "2026-03-04",
+        "subject": "Chemistry",
+        "chapters": [
+          "Organic Chemistry",
+          "Chemical Bonding"
+        ],
+        "score_pct": 40.83,
+        "raw_score": 49.0,
+        "max_score": 120.0,
+        "completed": true,
+        "attempted": 29,
+        "total": 30,
+        "avg_time_sec": 196
+      },
+      {
+        "attempt_id": "ATT_001_05",
+        "date": "2026-03-12",
+        "subject": "Physics",
+        "chapters": [
+          "Thermodynamics",
+          "Kinematics"
+        ],
+        "score_pct": 14.0,
+        "raw_score": 14.0,
+        "max_score": 100.0,
+        "completed": false,
+        "attempted": 12,
+        "total": 25,
+        "avg_time_sec": 199
+      },
+      {
+        "attempt_id": "ATT_001_06",
+        "date": "2026-03-20",
+        "subject": "Physics",
+        "chapters": [
+          "Electrostatics",
+          "Laws of Motion"
+        ],
+        "score_pct": 49.0,
+        "raw_score": 49.0,
+        "max_score": 100.0,
+        "completed": true,
+        "attempted": 23,
+        "total": 25,
+        "avg_time_sec": 162
+      }
+    ]
+  },
+  "recommend": {
+    "student_id": "STU_001",
+    "name": "Arjun Sharma",
+    "generated_at": "2026-04-05",
+    "summary": {
+      "avg_score_pct": 33.53,
+      "score_trend": "improving",
+      "primary_weakness": "Kinematics",
+      "primary_strength": "None identified",
+      "focus_subject": "Physics"
+    },
+    "total_steps": 9,
+    "steps": [
+      {
+        "step": 1,
+        "dost_type": "concept",
+        "target_subject": "Physics",
+        "target_chapter": "Kinematics",
+        "params": {},
+        "question_ids": [],
+        "reasoning": "'Kinematics' is your weakest area with consistently low scores. Build conceptual clarity before attempting more questions.",
+        "message": "\ud83d\udcda Let's start by strengthening your foundation in Kinematics. Review the core theory first \u2014 this will make everything else easier."
+      },
+      {
+        "step": 2,
+        "dost_type": "formula",
+        "target_subject": "Physics",
+        "target_chapter": "Kinematics",
+        "params": {},
+        "question_ids": [],
+        "reasoning": "After concept review, consolidating key formulas helps retain what was just learned.",
+        "message": "\ud83d\udd22 Quick formula drill for Kinematics. Commit these to memory \u2014 they're the shortcuts to faster solving."
+      },
+      {
+        "step": 3,
+        "dost_type": "practiceAssignment",
+        "target_subject": "Physics",
+        "target_chapter": "Kinematics",
+        "params": {
+          "difficulty": "easy",
+          "type_split": {
+            "scq": 15,
+            "mcq": 5,
+            "integer": 5
+          }
+        },
+        "question_ids": [
+          "Q_PHY_0055",
+          "Q_PHY_0067",
+          "Q_PHY_0053",
+          "Q_PHY_0024",
+          "Q_PHY_0008",
+          "Q_PHY_0094",
+          "Q_PHY_0034",
+          "Q_PHY_0009",
+          "Q_PHY_0077",
+          "Q_PHY_0068"
+        ],
+        "reasoning": "Untimed practice on 'Kinematics' at easy difficulty \u2014 build accuracy without time pressure first.",
+        "message": "\u270d\ufe0f Practice session on Kinematics. No timer this time \u2014 focus on getting every answer right and understanding why."
+      },
+      {
+        "step": 4,
+        "dost_type": "practiceAssignment",
+        "target_subject": "Physics",
+        "target_chapter": "Kinematics",
+        "params": {
+          "difficulty": "easy",
+          "type_split": {
+            "scq": 0,
+            "mcq": 0,
+            "integer": 10
+          }
+        },
+        "question_ids": [
+          "Q_PHY_0055",
+          "Q_PHY_0067",
+          "Q_PHY_0053",
+          "Q_PHY_0024",
+          "Q_PHY_0008",
+          "Q_PHY_0094",
+          "Q_PHY_0034",
+          "Q_PHY_0009",
+          "Q_PHY_0077",
+          "Q_PHY_0068"
+        ],
+        "reasoning": "Student is consistently skipping integer-type questions, losing guaranteed marks. Targeted integer practice is essential.",
+        "message": "\ud83d\udd22 Integer questions are free marks if you know the concept \u2014 let's fix that avoidance pattern right now."
+      },
+      {
+        "step": 5,
+        "dost_type": "clickingPower",
+        "target_subject": "Chemistry",
+        "target_chapter": "Kinematics",
+        "params": {
+          "total_questions": 10
+        },
+        "question_ids": [
+          "Q_CHE_0029",
+          "Q_CHE_0023",
+          "Q_CHE_0031",
+          "Q_CHE_0030",
+          "Q_CHE_0041",
+          "Q_CHE_0022",
+          "Q_CHE_0020",
+          "Q_CHE_0001",
+          "Q_CHE_0054",
+          "Q_CHE_0007"
+        ],
+        "reasoning": "Average time per question is 187.7s \u2014 above the JEE target of ~90s. Speed drills on familiar topics build response muscle memory.",
+        "message": "\u26a1 Speed drill time! 10 rapid-fire questions on Kinematics. Go fast \u2014 don't overthink. Build your clicking reflex."
+      },
+      {
+        "step": 6,
+        "dost_type": "revision",
+        "target_subject": "Physics",
+        "target_chapter": "Thermodynamics",
+        "params": {
+          "alloted_days": 3,
+          "strategy": 2,
+          "daily_time_minutes": 45
+        },
+        "question_ids": [],
+        "reasoning": "'Thermodynamics' also needs structured revision. A 3-day plan prevents cramming and ensures retention.",
+        "message": "\ud83d\udcc5 3-day revision plan for Thermodynamics. Spread it out \u2014 45 mins/day. Consistency beats cramming every time."
+      },
+      {
+        "step": 7,
+        "dost_type": "pickingPower",
+        "target_subject": "Physics",
+        "target_chapter": "Thermodynamics",
+        "params": {},
+        "question_ids": [
+          "Q_PHY_0080",
+          "Q_PHY_0022",
+          "Q_PHY_0100",
+          "Q_PHY_0021",
+          "Q_PHY_0003",
+          "Q_PHY_0070",
+          "Q_PHY_0054",
+          "Q_PHY_0099",
+          "Q_PHY_0096",
+          "Q_PHY_0042"
+        ],
+        "reasoning": "MCQ elimination is a critical JEE skill \u2014 even partial knowledge should yield the correct answer through elimination.",
+        "message": "\ud83c\udfaf MCQ elimination drill on Thermodynamics. Learn to use options as hints. Eliminate wrong answers fast."
+      },
+      {
+        "step": 8,
+        "dost_type": "practiceTest",
+        "target_subject": "Physics",
+        "target_chapter": "Mixed",
+        "params": {
+          "difficulty": "medium",
+          "duration_minutes": 60,
+          "paperPattern": "Mains"
+        },
+        "question_ids": [
+          "Q_PHY_0055",
+          "Q_PHY_0067",
+          "Q_PHY_0053",
+          "Q_PHY_0024",
+          "Q_PHY_0008",
+          "Q_PHY_0094",
+          "Q_PHY_0034",
+          "Q_PHY_0009",
+          "Q_PHY_0080",
+          "Q_PHY_0022",
+          "Q_PHY_0100",
+          "Q_PHY_0021",
+          "Q_PHY_0003",
+          "Q_PHY_0070",
+          "Q_PHY_0054",
+          "Q_PHY_0099"
+        ],
+        "reasoning": "After concept + formula + targeted practice, a full timed test measures actual improvement and exam readiness.",
+        "message": "\ud83c\udfc1 Full mock test on Physics! Treat it like the real exam \u2014 60 minutes, no breaks. Let's see the improvement."
+      },
+      {
+        "step": 9,
+        "dost_type": "speedRace",
+        "target_subject": "Chemistry",
+        "target_chapter": "Mixed",
+        "params": {
+          "rank": 100,
+          "opponent_type": "bot"
+        },
+        "question_ids": [
+          "Q_CHE_0021",
+          "Q_CHE_0055",
+          "Q_CHE_0025",
+          "Q_CHE_0019",
+          "Q_CHE_0049",
+          "Q_CHE_0041",
+          "Q_CHE_0052",
+          "Q_CHE_0002",
+          "Q_CHE_0031",
+          "Q_CHE_0054"
+        ],
+        "reasoning": "Competitive racing against a bot builds exam pressure tolerance and improves both speed and accuracy under stress.",
+        "message": "\ud83c\udfc6 Race time! Compete against a bot on Mixed. Win to build confidence \u2014 JEE is competitive, practice pressure too."
+      }
+    ]
+  }
+}
